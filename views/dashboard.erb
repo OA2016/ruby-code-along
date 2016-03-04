@@ -1,7 +1,6 @@
-<body>
 
         <div class="main-container">
-
+            
             <!-- HEADER -->
             <header class="block">
                 <ul class="header-menu horizontal-list">
@@ -20,10 +19,9 @@
                     </li>
                 </ul>
                 <div class="profile-menu">
-                    <p>Me <a href="#26"><span class="entypo-down-open scnd-font-color"></span></a></p>
+                    <p> <%= @user[:name] %> <a href="#26"><span class="entypo-down-open scnd-font-color"></span></a></p>
                     <div class="profile-picture small-profile-picture">
-                        <img width="40px" alt="Anne Hathaway picture" 
-                    src=<%= @user [profile_pic_url] %>">
+                        <img width="40px" alt="profile pic" src="<%= @user[:profile_pic_url] %>">
                     </div>
                 </div>
             </header>
@@ -150,9 +148,9 @@
                 <div class="profile block"> <!-- PROFILE (MIDDLE-CONTAINER) -->
                     <a class="add-button" href="#28"><span class="icon entypo-plus scnd-font-color"></span></a>
                     <div class="profile-picture big-profile-picture clear">
-                        <img width="150px" alt="Anne Hathaway picture" src="http://upload.wikimedia.org/wikipedia/commons/e/e1/Anne_Hathaway_Face.jpg" >
+                        <img width="150px" alt="Anne Hathaway picture" src="<%= @user[:profile_pic_url] %>" >
                     </div>
-                    <h1 class="user-name">Anne Hathaway</h1>
+                    <h1 class="user-name"><%= @user[:name] %>"</h1>
                     <div class="profile-description">
                         <p class="scnd-font-color">Lorem ipsum dolor sit amet consectetuer adipiscing</p>
                     </div>
@@ -346,4 +344,3 @@
                 </div> <!-- end calendar-month block --> 
             </div> <!-- end right-container -->
         </div> <!-- end main-container -->
-    </body>
