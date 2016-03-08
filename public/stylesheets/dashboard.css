@@ -59,7 +59,7 @@
 }
 
 body {
-	background: #1f253d;
+	background: #ffff66;
 }
 
 ul {
@@ -262,7 +262,7 @@ h1, h2, p, a, span{
 					transition: background .3s;
 				}
 					.header-menu-tab:hover {
-						background: #50597b;
+						background: #ffff66;
 						border-bottom: 4px solid #11a8ab;
 						text-decoration: none;
 					}
@@ -274,7 +274,7 @@ h1, h2, p, a, span{
 					line-height: 22px;
 					padding: 0 6px;
 					font-weight: 700;
-					background: #e64c65;
+					background: #cc66cc;
 					border-radius: 100%;
 					top: 15px;
 					right: 2px;
@@ -325,7 +325,7 @@ h1, h2, p, a, span{
 				height: 360px;
 			}
 				.menu-box .titular {
-					background: #11a8ab;
+					background: #cc66cc;
 				}
 				.menu-box-menu .icon {
 					display: inline-block;
@@ -358,8 +358,8 @@ h1, h2, p, a, span{
 					transition: background .2s;
 				}
 					.menu-box-tab:hover {
-						background: #50597b;
-						border-top: 1px solid #1f253d;
+						background: #ffff66;
+						border-top: 4px solid #11a8ab;
 						text-decoration: none;
 					}
 					.menu-box-tab:hover .icon {
@@ -943,11 +943,11 @@ h1, h2, p, a, span{
 					padding-top: 10px;
 				}
 				.subscribe.button {
-					background: #11a8ab;
+					background: #cc66cc;
 					margin-top: 10px;
 				}
 					.subscribe.button:hover {
-						background: #0F9295;
+						background: #ffff66;
 					}
 			.account {
 				height: 390px;
@@ -956,11 +956,11 @@ h1, h2, p, a, span{
 					padding: 10px 0;
 				}
 				.sign-in.button {
-					background: #e64c65;
+					background: #cc66cc;
 					margin: 10px auto;
 				}
 					.sign-in.button:hover {
-						background: #cc324b;
+						background: #ffff66;
 					}
 				.account p { 
 					text-align: center;

@@ -150,9 +150,9 @@
                     <div class="profile-picture big-profile-picture clear">
                         <img width="150px" alt="Anne Hathaway picture" src="<%= @user[:profile_pic_url] %>" >
                     </div>
-                    <h1 class="user-name"><%= @user[:name] %>"</h1>
+                    <h1 class="user-name"><%= @user[:name] %></h1>
                     <div class="profile-description">
-                        <p class="scnd-font-color">Lorem ipsum dolor sit amet consectetuer adipiscing</p>
+                        <p class="scnd-font-color">Josue A Real One</p>
                     </div>
                     <ul class="profile-options horizontal-list">
                         <li><a class="comments" href="#40"><p><span class="icon fontawesome-comment-alt scnd-font-color"></span>23</li></p></a>
@@ -228,7 +228,7 @@
                 <div class="join-newsletter block"> <!-- JOIN NEWSLETTER (RIGHT-CONTAINER) -->
                     <h2 class="titular">JOIN THE NEWSLETTER</h2>
                     <div class="input-container">
-                        <input type="text" placeholder="yourname@gmail.com" class="email text-input">
+                        <input type="text" placeholder=<%= @user[:email] %> class="email text-input">
                         <div class="input-icon envelope-icon-newsletter"><span class="fontawesome-envelope scnd-font-color"></span></div>
                     </div>
                     <a class="subscribe button" href="#21">SUBSCRIBE</a>
@@ -236,7 +236,7 @@
                 <div class="account block"> <!-- ACCOUNT (RIGHT-CONTAINER) -->
                     <h2 class="titular">SIGN IN TO YOUR ACCOUNT</h2>
                     <div class="input-container">
-                        <input type="text" placeholder="yourname@gmail.com" class="email text-input">
+                        <input type="text" placeholder=<%= @user[:email] %> class="email text-input">
                         <div class="input-icon envelope-icon-acount"><span class="fontawesome-envelope scnd-font-color"></span></div>
                     </div>
                     <div class="input-container">
